@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote name="jfile" url="https://github.com/ldurka" fetch="https://github.com/ldurka" />
+   <default revision="master" revision="jfile">
+    <project path="jfile" name="test" />
+</manifest>
