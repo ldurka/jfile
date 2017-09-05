@@ -2,6 +2,8 @@
 <!-- Usefull links 
    http://blog.udinic.com/2014/05/24/aosp-part-1-get-the-code-using-the-manifest-and-repo/ 
    https://gerrit.googlesource.com/git-repo/+/master/docs/manifest-format.txt
+  <project name="loacl_name" path="remote/path"
+           revision="#hash or tag"/>
 -->
 <manifest>
    <remote name="github" fetch="https://github.com/ldurka" />
