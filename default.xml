@@ -2,7 +2,7 @@
 
 <manifest>
    <remote name="github" fetch="https://github.com/ldurka" />
-   <remote name="nervana" fetch="https://cdc91174822106085b35a41452943eb958768bad@github.com/NervanaSystems" />
+   <remote name="nervana" fetch="https://6db89e0ff758a9eb42e42bf564a658039ebc6b02@github.com/NervanaSystems" />
    <default revision="master" remote="github" />
    <project path="jfile" name="jfile" />
    <project path="benchmarks" name="benchmarks" remote="nervana"/>
