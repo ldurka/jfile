@@ -4,6 +4,16 @@
    https://gerrit.googlesource.com/git-repo/+/master/docs/manifest-format.txt
   <project name="loacl_name" path="remote/path"
            revision="#hash or tag"/>
+
+Installation procedure
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+chmod a+x ~/bin/repo
+mkdir working-directory-name 
+cd working-directory-name 
+
+repo init --no-repo-verify --quiet --no-clone-bundle -u https://github.com/ldurka/jfile.git 
+repo sync  --quiet
+
 -->
 <manifest>
    <remote name="github" fetch="https://github.com/ldurka" />
