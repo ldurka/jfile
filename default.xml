@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Usefull links 
-   http://blog.udinic.com/2014/05/24/aosp-part-1-get-the-code-using-the-manifest-and-repo/ 
-   https://gerrit.googlesource.com/git-repo/+/master/docs/manifest-format.txt
-  <project name="loacl_name" path="remote/path"
-           revision="#hash or tag"/>
 
-Installation procedure
-curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-chmod a+x ~/bin/repo
-mkdir working-directory-name 
-cd working-directory-name 
-
-repo init --no-repo-verify --quiet --no-clone-bundle -u https://github.com/ldurka/jfile.git 
-repo sync  --quiet
-
--->
 <manifest>
    <remote name="github" fetch="https://github.com/ldurka" />
    <default revision="master" remote="github" />
